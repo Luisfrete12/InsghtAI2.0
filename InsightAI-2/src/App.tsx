@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
@@ -13,7 +12,7 @@ import { AuthGuard } from './components/auth/auth-guard';
 import { LoginPage } from './routes/auth/login';
 
 // App routes
-import { AppIndexPage } from './routes/app';
+import  {AppIndexPage}  from './routes/app/index';
 import { DashboardsPage } from './routes/app/dashboards';
 import { DatasetsPage } from './routes/app/datasets';
 
@@ -36,12 +35,13 @@ function App() {
           <Router>
             <Routes>
               {/* Public routes */}
+              <Route path="/index" element={<AppIndexPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<LoginPage />} />
               <Route path="/forgot-password" element={<LoginPage />} />
               
               {/* Protected app routes */}
-              <Route path="/app" element={<AuthGuard><AppIndexPage /></AuthGuard>} />
+              <Route path="/app/index" element={<AuthGuard><AppIndexPage /></AuthGuard>} />
               <Route path="/app/dashboards" element={<AuthGuard><DashboardsPage /></AuthGuard>} />
               <Route path="/app/datasets" element={<AuthGuard><DatasetsPage /></AuthGuard>} />
               
