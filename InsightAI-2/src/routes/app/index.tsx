@@ -19,7 +19,7 @@ export function AppIndexPage() {
         </p>
       </div>
 
-  {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
+  {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    1°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
 
       <div className="grid">
                 <div className="card">
@@ -44,9 +44,9 @@ export function AppIndexPage() {
                 </div>
             </div>
 
-    {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
+    {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    2°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
 
-      <h2 className="tituloPreco"><strong>PREÇO DE ASSINATURA</strong></h2>
+        <h2 className="tituloPreco"><strong>PREÇO DE ASSINATURA</strong></h2>
             <div className="planos">
                 <div className="plano">
                     <h3 className="plano-titulo"><strong>DELUXE</strong></h3>
@@ -71,24 +71,24 @@ export function AppIndexPage() {
                 </div>
             </div>
 
-        {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
+        {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    3°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
 
-          <h2 className="tituloQuinto">Pronto para chegar ao resultados com a gente?</h2>
-            <h3 className="subtituloQuinto">Nos envie uma mensagem!</h3>
-            <div className="gridQuinto">
-                <div className="cardQuinto">
-                    <h4>TELEFONE</h4>
-                    <p>+55 (41) 99999-9999</p>
-                </div>
-                <div className="cardQuinto">
-                    <h4>E-MAIL</h4>
-                    <p>personal_department@insightAi.com</p>
-                </div>
-                <div className="cardQuinto">
-                    <h4>Social</h4> 
-                    <p>Redes sociais</p>
-                </div>
+        <h2 className="tituloQuinto">Pronto para chegar ao resultados com a gente?</h2>
+        <h3 className="subtituloQuinto">Nos envie uma mensagem!</h3>
+        <div className="gridQuinto">
+            <div className="cardQuinto">
+                <h4>TELEFONE</h4>
+                <p>+55 (41) 99999-9999</p>
             </div>
+            <div className="cardQuinto">
+                <h4>E-MAIL</h4>
+                <p>personal_department@insightAi.com</p>
+            </div>
+            <div className="cardQuinto">
+                <h4>Social</h4> 
+                <p>Redes sociais</p>
+            </div>
+        </div>
 
 
     </section>
