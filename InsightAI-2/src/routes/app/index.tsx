@@ -7,17 +7,23 @@ export function AppIndexPage() {
   // O prop 'replace' faz com que o histórico do navegador substitua a rota atual, evitando voltar para esta página
   return (
     <section>
-      <div className="welcome-text">
-        <p>Bem vindo ao <strong>InsightAI</strong></p>
-      </div>
-      <div className="about">
-        <h2 className="titulo_descricao">
-            <strong>Descubra o poder da análise de <br />dados e previsões inteligentes <br />com o InsightAI.</strong>
-        </h2>
-        <p className="sobreNos">
-            Nossa plataforma oferece ferramentas avançadas para <br />transformar dados em insights valiosos.
-        </p>
-      </div>
+        <header className='cabecalho'>
+            <h2 className='logo'>InsightAI</h2>
+            <nav className='cabecalho_menu'>
+                <a href="../app/dashboards" className='menu_link'>Login</a>
+            </nav>
+        </header>
+        <div className="welcome-text">
+            <p>Bem vindo ao <strong>InsightAI</strong></p>
+        </div>
+        <div className="about">
+            <h2 className="titulo_descricao">
+                <strong>Descubra o poder da análise de <br />dados e previsões inteligentes <br />com o InsightAI.</strong>
+            </h2>
+            <p className="sobreNos">
+                Nossa plataforma oferece ferramentas avançadas para <br />transformar dados em insights valiosos.
+            </p>
+        </div>
 
   {/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    1°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/}
 
