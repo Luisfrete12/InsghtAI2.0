@@ -1,0 +1,139 @@
+
+.cabecalho {
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 85%;
+    justify-content: center;
+    position: relative;
+}
+
+.welcome-text {
+    align-items: center;
+    font-size: 100px;
+    margin-top: 370px;
+    margin-left: 300px;
+}
+
+.about {
+    margin-top: 500px;
+}
+
+.titulo_descricao {
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.sobreNos {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    1°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/
+
+.grid {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha, caso necessário */
+    gap: 20px; /* Espaçamento entre os cards */
+    min-height: 100vh; /* Garante que os cards estejam centralizados na altura da tela */
+} 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 32px;
+    padding: 20px;
+  }
+
+.card {
+    border-width: 3px;
+    border-radius: 10px;
+
+}
+
+.Titulo {
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.Paragrafo {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    2°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/
+
+.tituloPreco {
+    font-size: 30px;
+    margin-left: 600px;
+}
+
+.planos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.plano {
+    padding: 40px;
+    border-width: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 10px;
+}
+
+.plano-titulo {
+    font-size: 25px;
+}
+
+.plano-descricao {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.plano-preco {
+    font-size: 20px;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    3°    -=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-==-=-=-=-=-==-=-=*/
+
+.tituloQuinto{
+    font-weight: 500; 
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: 370px;
+}
+
+.subtituloQuinto{
+    font-weight: 500; 
+    font-size: 30px;
+    margin-left: 600px;
+}
+
+.gridQuinto {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.cardQuinto{
+    justify-items: center;
+    padding: 20px;
+    border-width: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
